@@ -29,7 +29,9 @@
         </div>
     </div>
     <div class="row">
-        <div id="skillsCloud" class="medium-6 columns medium-push-6"></div>
+        <div class="medium-6 columns medium-push-6">
+          <div id="skillsCloud"></div>
+        </div>
         <div class="medium-6 columns medium-pull-6">
             <h2>Profile</h2>
             <p>Full stack software developer / engineer focused on development mainly using Java, Javascript and open source technologies. Gained valuable experience in most phases of the software development life cycle and client and server side development.</p>
@@ -63,6 +65,14 @@
             <li><a href="#"><div class="stat">18</div><span>Logos</span></a></li>
         </ul>
     </div> -->
+    <style type="text/css">
+        #skillsCloud {
+          margin: 30px auto;
+          width: 570px;
+          height: 270px;
+          border: none;
+        }
+    </style>
     <script>
       var word_array = [
           {text: "Agile", weight: 30},
@@ -91,11 +101,8 @@
       ];
       $(document).foundation();
       $(function() {
-        $("#skillsCloud").jQCloud(word_array, {
-          width: 570,
-          height: 270,
-          autoResize: true
-        });
+        $("#skillsCloud").css("width", "100%");
+        $("#skillsCloud").jQCloud(word_array);
       });
     </script>
 </body>
