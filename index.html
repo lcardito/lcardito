@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Me | Welcome</title>
     <link rel="stylesheet" href="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.min.css">
+    <link rel="stylesheet" type="text/css" href="bower_components/jqcloud2/dist/jqcloud.min.css" />
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script type="text/javascript" src="bower_components/jqcloud2/dist/jqcloud.min.js"></script>
 </head>
 <body>
 
@@ -25,9 +29,7 @@
         </div>
     </div>
     <div class="row">
-        <div class="medium-6 columns medium-push-6">
-            <img class="thumbnail" src="http://placehold.it/750x350">
-        </div>
+        <div id="skillsCloud" class="medium-6 columns medium-push-6"></div>
         <div class="medium-6 columns medium-pull-6">
             <h2>Profile</h2>
             <p>Full stack software developer / engineer focused on development mainly using Java, Javascript and open source technologies. Gained valuable experience in most phases of the software development life cycle and client and server side development.</p>
@@ -61,10 +63,39 @@
             <li><a href="#"><div class="stat">18</div><span>Logos</span></a></li>
         </ul>
     </div> -->
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
     <script>
-    $(document).foundation();
+      var word_array = [
+          {text: "Agile", weight: 30},
+          {text: "Clean Code", weight: 26},
+          {text: "TDD", weight: 28},
+          {text: "Kanban", weight: 27},
+          {text: "Scrum", weight: 26},
+          {text: "DevOps", weight: 22},
+          {text: "AWS", weight: 23},
+          {text: "Continuous Integration", weight: 21},
+          {text: "Continuous Deployment", weight: 22},
+          {text: "Continuous Delivery", weight: 23},
+          {text: "Java", weight: 29},
+          {text: "Javascript", weight: 28},
+          {text: "GIT", weight: 23},
+          {text: "Spring", weight: 18},
+          {text: "Play! Framework", weight: 17},
+          {text: "Python", weight: 20},
+          {text: "Django", weight: 19},
+          {text: "Docker", weight: 25},
+          {text: "Bash", weight: 22},
+          {text: "AngularJS", weight: 25},
+          {text: "Maven", weight: 26},
+          {text: "Bower", weight: 24},
+          {text: "Grunt", weight: 24}
+      ];
+      $(document).foundation();
+      $(function() {
+        $("#skillsCloud").jQCloud(word_array, {
+          width: 570,
+          height: 270
+        });
+      });
     </script>
 </body>
 </html>
