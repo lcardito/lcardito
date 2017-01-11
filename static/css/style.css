@@ -5,3 +5,7 @@
 .valign-center {
     padding-top: 7rem
   }
+
+.row.centered {
+  max-width: 50%;
+}
