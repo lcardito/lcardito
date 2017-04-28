@@ -12,9 +12,7 @@ npm run build
 
 gh-pages -d build
 
-git branch -D gh-pages
-
-git checkout gh-pages
+git checkout origin/gh-pages
 git merge -s ours origin/master
 
 git checkout master
