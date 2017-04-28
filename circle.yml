@@ -4,6 +4,6 @@ general:
       - react-rewrite
 deployment:
   production:
-    branch:
+    branch: react-rewrite
     commands:
       - npm run deploy
