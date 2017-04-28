@@ -13,7 +13,7 @@ npm run build
 gh-pages -d build
 
 git checkout gh-pages
-git merge -s ours master
+git merge -s ours origin/master
 
 git checkout master
 git merge gh-pages -m "Deploy to Master [ci skip]" --allow-unrelated-histories
