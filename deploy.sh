@@ -12,10 +12,9 @@ npm run build
 
 gh-pages -d build
 
-git checkout origin/gh-pages
-git merge -s ours origin/master
-
-git checkout master
-git merge gh-pages -m "Deploy to Master [ci skip]" --allow-unrelated-histories
+git branch -m master foo
+git branch -m gh-pages master
+git push -f origin master
+git push origin --delete foo
 
 echo "Finished Deployment!"
