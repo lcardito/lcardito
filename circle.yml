@@ -6,4 +6,4 @@ deployment:
   production:
     branch: react-rewrite
     commands:
-      - ./deploy.sh
+      - npm run deploy
