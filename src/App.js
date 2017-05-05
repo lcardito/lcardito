@@ -113,8 +113,15 @@ class App extends Component {
                                     skills={['Java', 'Docker', 'Dropwizard', 'Ansible', 'Rabbit MQ']}/>
                             </Grid.Column>
                             <Grid.Row centered columns={2}>
-                                <Grid.Column></Grid.Column>
-                                <Grid.Column></Grid.Column>
+                                <Grid.Column>
+                                    <WorkCard
+                                        imageSrc='https://pbs.twimg.com/profile_images/661633390081409025/Yh62gWuf.png'
+                                        header='Software Developer'
+                                        period='Nov 2015 - Sep 2016'
+                                        description='Senior Developer and Agile Evangelist. DevOps, Continuous Integration, Deployment and Delivery.'
+                                        skills={['Java', 'Docker', 'Angular 1.x', 'Bootstrap', 'Hibernate', 'Spring']}/>
+                                </Grid.Column>
+                                <Grid.Column/>
                             </Grid.Row>
                         </Grid>
                     </Container>
