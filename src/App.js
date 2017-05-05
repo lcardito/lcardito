@@ -1,7 +1,8 @@
 import React, {Component} from "react";
 import "./App.css";
-import {Container, Grid, Header, Menu, Segment} from "semantic-ui-react";
+import {Container, Grid, Header, Icon, Menu, Segment} from "semantic-ui-react";
 import {TagCloud} from "react-tagcloud";
+import WorkCard from "./WorkCard";
 
 class App extends Component {
     render() {
@@ -57,7 +58,7 @@ class App extends Component {
                         </Segment>
                     </div>
                 </Container>
-                <Segment className="vertical stripe">
+                <Segment vertical>
                     <Grid container={true} stackable={true} verticalAlign="middle" textAlign="center">
                         <Grid.Row>
                             <Grid.Column width={10} className="wide">
@@ -80,7 +81,7 @@ class App extends Component {
                                     <p>I also like to understand the road map and the features' priorities. I want to be
                                         involved in the life-cycle of the product, not only the application,
                                         in order to provide the best experience to our customers.</p>
-                                    <p>My main interests and expertises are: Engineering and Agile methodologies (TDD,
+                                    <p>My main interests and expertise are: Engineering and Agile methodologies (TDD,
                                         Scrum/Kanban, Pair Programming), REST APIs, Micro-services,
                                         Java EE, Java Play! Framework, Spring, JavaScript (NodeJS, React, Flux).</p>
                                 </Container>
@@ -93,6 +94,27 @@ class App extends Component {
                             </Grid.Column>
                         </Grid.Row>
                     </Grid>
+                    <Container text textAlign="center">
+                        <Header as="h2" icon className="horizontal header divider">
+                            <Icon name="database" circular/>
+                            <Header.Content>
+                                Experience
+                            </Header.Content>
+                        </Header>
+                        <Grid centered columns={2}>
+                            <Grid.Column width={12}>
+                                <WorkCard
+                                    imageSrc='https://upload.wikimedia.org/wikipedia/commons/b/b4/Sky_Logo_seit_Dezember_2015.png'
+                                    header='Software Developer'
+                                    period='Sep 2016 - current'
+                                    skills={['Java', 'Docker', 'Dropwizard', 'Ansible', 'Rabbit MQ']}/>
+                            </Grid.Column>
+                            <Grid.Row centered columns={2}>
+                                <Grid.Column></Grid.Column>
+                                <Grid.Column></Grid.Column>
+                            </Grid.Row>
+                        </Grid>
+                    </Container>
                 </Segment>
             </div>
         );
