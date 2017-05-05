@@ -99,7 +99,7 @@ class App extends Component {
                     </Grid>
                     <Container text textAlign="center">
                         <Header as="h2" className="horizontal header divider">Experience</Header>
-                        <Grid centered columns={2}>
+                        <Grid centered columns={2} stackable>
                             <Grid.Column width={12}>
                                 <WorkCard
                                     imageSrc='https://upload.wikimedia.org/wikipedia/commons/b/b4/Sky_Logo_seit_Dezember_2015.png'
