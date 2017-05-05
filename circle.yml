@@ -2,6 +2,9 @@ general:
   branches:
     only:
       - react-rewrite
+dependencies:
+  post:
+    - rm -r node_modules/gh-pages/.cache
 deployment:
   production:
     branch: react-rewrite
