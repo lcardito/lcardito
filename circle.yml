@@ -2,9 +2,6 @@ general:
   branches:
     only:
       - react-rewrite
-dependencies:
-  post:
-    - rm -r ~/lcardito.github.io/.git
 deployment:
   production:
     branch: react-rewrite
