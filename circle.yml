@@ -3,8 +3,8 @@ general:
     only:
       - react-rewrite
 dependencies:
-  post:
-    - rm -r ~/lcardito.github.io/node_modules/gh-pages/.cache
+  pre:
+    - rm -r ~/lcardito.github.io/node_modules/gh-pages/
 deployment:
   production:
     branch: react-rewrite
