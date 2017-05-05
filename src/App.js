@@ -48,7 +48,10 @@ class App extends Component {
         return (
             <div className="ui large top fixed hidden">
                 <Container>
-                    <Menu pointing secondary={true}/>
+                    <Menu secondary={true} icon compact>
+                        <a href="https://github.com/lcardito/" target="_blank"><Menu.Item><Icon size="large" link name='github'/></Menu.Item></a>
+                        <a href="https://medium.com/@luigicardito/" target="_blank"><Menu.Item><Icon size="large" link name='medium'/></Menu.Item></a>
+                    </Menu>
                     <div className="pusher">
                         <Segment vertical className="masthead center aligned">
                             <Container text textAlign="center">
@@ -62,7 +65,7 @@ class App extends Component {
                     <Grid container={true} stackable={true} verticalAlign="middle" textAlign="center">
                         <Grid.Row>
                             <Grid.Column width={10} className="wide">
-                                <Header as="h3">Who am I?</Header>
+                                <Header as="h3">Who am I</Header>
                                 <Container text textAlign="justified">
                                     Pro-active, motivated, curious and passionate developer, always ready to grab new
                                     exciting opportunities.
@@ -71,7 +74,7 @@ class App extends Component {
                                     I like mentoring and listening to more experienced developers so that the team value
                                     will increase quickly.
                                 </Container>
-                                <Header as="h3">What do I do?</Header>
+                                <Header as="h3">What do I do</Header>
                                 <Container text textAlign="justified">
                                     <p>I fully embrace the DevOps culture, leading to the benefits of the Continuous
                                         Delivery practises without compromising the quality of my work.
