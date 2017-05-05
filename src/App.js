@@ -116,7 +116,14 @@ class App extends Component {
                                         description='Senior Developer and Agile Evangelist. DevOps, Continuous Integration, Deployment and Delivery.'
                                         skills={['Java', 'Docker', 'Angular 1.x', 'Bootstrap', 'Hibernate', 'Spring']}/>
                                 </Grid.Column>
-                                <Grid.Column/>
+                                <Grid.Column>
+                                    <WorkCard
+                                        imageSrc='http://www.camacoes.it/images/everisLogo.jpg'
+                                        header='Information Technology Consultant'
+                                        period='May 2012 - June 2013'
+                                        description='Front-end and back-end system analysis and maintenance for ING Direct Customer, 2nd level investigations and 3rd level support'
+                                        skills={['Java', 'Velocity', 'iBatis', 'Axis', 'MySQL']}/>
+                                </Grid.Column>
                             </Grid.Row>
                         </Grid>
                     </Container>
