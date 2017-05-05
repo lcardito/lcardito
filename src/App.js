@@ -98,12 +98,7 @@ class App extends Component {
                         </Grid.Row>
                     </Grid>
                     <Container text textAlign="center">
-                        <Header as="h2" icon className="horizontal header divider">
-                            <Icon name="database" circular/>
-                            <Header.Content>
-                                Experience
-                            </Header.Content>
-                        </Header>
+                        <Header as="h2" className="horizontal header divider">Experience</Header>
                         <Grid centered columns={2}>
                             <Grid.Column width={12}>
                                 <WorkCard
