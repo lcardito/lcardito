@@ -1,11 +1,12 @@
 {
   "name": "lcardito.github.io",
-  "homepage": "https://www.lcardito.me",
+  "homepage": "https://lcardito.github.io/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "react": "^15.5.4",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "semantic-ui-react": "^0.68.2"
   },
   "devDependencies": {
     "@types/jasmine": "^2.5.47",
