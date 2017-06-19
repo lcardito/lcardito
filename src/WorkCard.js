@@ -1,32 +1,31 @@
-import React, {Component} from "react";
+import React from "react";
 import {Item, Label} from "semantic-ui-react";
+import PropTypes from "prop-types";
 
-class WorkCard extends Component {
-    render() {
-        return <Item.Group relaxed>
-            <Item>
-                <Item.Image size='tiny' src={this.props.imageSrc}/>
-                <Item.Content verticalAlign='middle'>
-                    <Item.Header as="a">{this.props.header}</Item.Header>
-                    <Item.Meta>{this.props.period}</Item.Meta>
-                    <Item.Description>{this.props.description}</Item.Description>
-                    <Item.Extra>
-                        {this.props.skills.map((s, idx) => {
-                            return <Label key={idx}>{s}</Label>
-                        })}
-                    </Item.Extra>
-                </Item.Content>
-            </Item>
-        </Item.Group>
-    }
-}
+const WorkCard = ({imageSrc, header, period, description, skills}) => (
+    <Item.Group relaxed>
+        <Item>
+            <Item.Image size='tiny' src={imageSrc}/>
+            <Item.Content verticalAlign='middle'>
+                <Item.Header as="a">{header}</Item.Header>
+                <Item.Meta>{period}</Item.Meta>
+                <Item.Description>{description}</Item.Description>
+                <Item.Extra>
+                    {skills.map((s, idx) => {
+                        return <Label key={idx}>{s}</Label>
+                    })}
+                </Item.Extra>
+            </Item.Content>
+        </Item>
+    </Item.Group>
+);
 
 export default WorkCard;
 
 WorkCard.propTypes = {
-    imageSrc: React.PropTypes.string,
-    header: React.PropTypes.string,
-    period: React.PropTypes.string,
-    description: React.PropTypes.string,
-    skills: React.PropTypes.array
+    imageSrc: PropTypes.string,
+    header: PropTypes.string,
+    period: PropTypes.string,
+    description: PropTypes.string,
+    skills: PropTypes.array
 };

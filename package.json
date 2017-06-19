@@ -8,10 +8,12 @@
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-tagcloud": "^1.2.0",
-    "semantic-ui-react": "^0.68.2"
+    "semantic-ui-react": "^0.68.2",
+    "prop-types": "latest"
   },
   "devDependencies": {
     "@types/jasmine": "^2.5.47",
+    "@types/prop-types": "^15.5.1",
     "gh-pages": "^0.12.0",
     "react-scripts": "0.9.5"
   },
