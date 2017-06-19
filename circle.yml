@@ -4,7 +4,7 @@ general:
       - react-rewrite
 dependencies:
   pre:
-    - rm -r ~/lcardito.github.io/node_modules/gh-pages/
+    - rm -rf ~/lcardito.github.io/node_modules/gh-pages/
 deployment:
   production:
     branch: react-rewrite

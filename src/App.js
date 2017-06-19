@@ -127,7 +127,7 @@ class App extends Component {
                                         skills={['Java', 'Spring']}/>
                                 </Grid.Column>
                             </Grid.Row>
-                            <Grid.Row centered colums={2}>
+                            <Grid.Row centered columns={2}>
                                 <Grid.Column>
                                     <WorkCard
                                         imageSrc='https://media.glassdoor.com/sql/193109/wds-squarelogo.png'
