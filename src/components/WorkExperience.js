@@ -4,7 +4,7 @@ import WorkCard from "./WorkCard";
 
 const WorkExperience = () => (
     <div>
-        <Header as='h2' className='horizontal header divider center aligned'>Experience</Header>
+        <Header as='h2' className='horizontal header divider aligned' textAlign="center">Experience</Header>
         <Grid stackable>
             <Grid.Column width={16}>
                 <WorkCard

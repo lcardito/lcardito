@@ -12,7 +12,7 @@ const App = () => (
             <SocialMenu />
         </Container>
         <Segment vertical>
-            <Grid container={true} stackable={true} verticalAlign='middle' textAlign='center'>
+            <Grid container={true} stackable={true} verticalAlign='middle'>
                 <Grid.Row>
                     <Grid.Column width={10} className='wide'>
                         <Intro />
@@ -22,7 +22,7 @@ const App = () => (
                     </Grid.Column>
                 </Grid.Row>
             </Grid>
-            <Container text textAlign='center'>
+            <Container text>
                 <WorkExperience />
             </Container>
         </Segment>

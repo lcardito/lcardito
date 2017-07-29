@@ -7,9 +7,11 @@ const WorkCard = ({imageSrc, header, period, description, skills}) => (
         <Item>
             <Item.Image size='tiny' src={imageSrc}/>
             <Item.Content>
-                <Item.Header as="a">{header}</Item.Header>
+                <Item.Header as="h2">{header}</Item.Header>
                 <Item.Meta>{period}</Item.Meta>
-                <Item.Description>{description}</Item.Description>
+                <Item.Description>
+                    {description}
+                </Item.Description>
                 <Item.Extra>
                     {skills.map((s, idx) => {
                         return <Label key={idx}>{s}</Label>
