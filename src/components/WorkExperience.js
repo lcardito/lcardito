@@ -8,7 +8,7 @@ const WorkExperience = () => (
         <Grid centered columns={2} stackable>
             <Grid.Column width={12}>
                 <WorkCard
-                    imageSrc='https://upload.wikimedia.org/wikipedia/commons/b/b4/Sky_Logo_seit_Dezember_2015.png'
+                    imageSrc='https://dm8eklel4s62k.cloudfront.net/images/sky-logo-b90e8c9.jpg'
                     header='Software Developer @ Sky'
                     period='Sep 2016 - current'
                     skills={['Java', 'Docker', 'Dropwizard', 'Ansible', 'Rabbit MQ', 'React', 'Redux']}/>
