@@ -24,7 +24,7 @@ const Intro = () => (
                 in order to provide the best experience to our customers.</p>
             <p>My main interests and expertise are: Engineering and Agile methodologies (TDD,
                 Scrum/Kanban, Pair Programming), REST APIs, Micro-services,
-                Java EE, Java Play! Framework, Spring, JavaScript (NodeJS, React, Flux).</p>
+                Java EE, Java Play! Framework, Spring, Dropwizard, JavaScript (NodeJS, React, Redux).</p>
         </Container>
     </div>
 );

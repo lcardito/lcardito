@@ -6,7 +6,7 @@ const WorkCard = ({imageSrc, header, period, description, skills}) => (
     <Item.Group relaxed>
         <Item>
             <Item.Image size='tiny' src={imageSrc}/>
-            <Item.Content verticalAlign='middle'>
+            <Item.Content>
                 <Item.Header as="a">{header}</Item.Header>
                 <Item.Meta>{period}</Item.Meta>
                 <Item.Description>{description}</Item.Description>
