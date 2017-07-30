@@ -22,7 +22,7 @@ const App = () => (
                     </Grid.Column>
                 </Grid.Row>
             </Grid>
-            <Container text>
+            <Container text fluid>
                 <WorkExperience />
             </Container>
         </Segment>

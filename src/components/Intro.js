@@ -4,7 +4,7 @@ import {Container, Header} from "semantic-ui-react";
 const Intro = () => (
     <div>
         <Header as='h3'>Who am I</Header>
-        <Container text textAlign='justified'>
+        <Container text textAlign='justified' fluid>
             Pro-active, motivated, curious and passionate developer, always ready to grab new
             exciting opportunities.
             I love working in Agile environments, I strongly believe in TDD and Pair Programming
@@ -13,7 +13,7 @@ const Intro = () => (
             will increase quickly.
         </Container>
         <Header as='h3'>What do I do</Header>
-        <Container text textAlign='justified'>
+        <Container text textAlign='justified' fluid>
             <p>I fully embrace the DevOps culture, leading to the benefits of the Continuous
                 Delivery practises without compromising the quality of my work.
                 I respect and chase early feedback from users and stakeholders, reacting and
