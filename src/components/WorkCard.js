@@ -1,18 +1,20 @@
 import React from "react";
-import {Item, Label} from "semantic-ui-react";
+import {Header, Item, Label} from "semantic-ui-react";
 import PropTypes from "prop-types";
 
 const WorkCard = ({imageSrc, header, period, description, skills}) => (
     <Item.Group relaxed>
         <Item>
-            <Item.Image size='tiny' src={imageSrc}/>
+            <Item.Image size='tiny' src={imageSrc} />
             <Item.Content>
                 <Item.Header as="h2">{header}</Item.Header>
                 <Item.Meta>{period}</Item.Meta>
                 <Item.Description>
-                    {description}
+                    <Header as='h5'>Achievements</Header>
+                    <span style={{fontStyle: 'italic'}}>{description}</span>
                 </Item.Description>
                 <Item.Extra>
+                    <Header as='h5'>Techs</Header>
                     {skills.map((s, idx) => {
                         return <Label key={idx}>{s}</Label>
                     })}
