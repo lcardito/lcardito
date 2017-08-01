@@ -17,7 +17,7 @@ const App = () => (
                     <Grid.Column width={10} className='wide'>
                         <Intro />
                     </Grid.Column>
-                    <Grid.Column width={6} className='wide' floated='right'>
+                    <Grid.Column width={6} className='wide' floated='right' verticalAlign='middle' textAlign="center">
                         <SkillsTagCloud />
                     </Grid.Column>
                 </Grid.Row>
