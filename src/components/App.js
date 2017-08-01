@@ -1,31 +1,25 @@
 import React from "react";
 import "../App.css";
-import {Container, Grid, Segment} from "semantic-ui-react";
+import {Grid} from "semantic-ui-react";
 import WorkExperience from "./WorkExperience";
 import SkillsTagCloud from "./SkillsTagCloud";
 import Intro from "./Intro";
 import SocialMenu from "./SocialMenu";
 
 const App = () => (
-    <div className='ui large top fixed hidden'>
-        <Container>
-            <SocialMenu />
-        </Container>
-        <Segment vertical>
-            <Grid container={true} stackable={true} verticalAlign='middle'>
-                <Grid.Row>
-                    <Grid.Column width={10} className='wide'>
-                        <Intro />
-                    </Grid.Column>
-                    <Grid.Column width={6} className='wide' floated='right' verticalAlign='middle' textAlign="center">
-                        <SkillsTagCloud />
-                    </Grid.Column>
-                </Grid.Row>
-            </Grid>
-            <Container text fluid>
-                <WorkExperience />
-            </Container>
-        </Segment>
+    <div>
+        <SocialMenu/>
+        <Grid container={true} stackable={true} verticalAlign='middle'>
+            <Grid.Row>
+                <Grid.Column width={10} className='wide'>
+                    <Intro/>
+                </Grid.Column>
+                <Grid.Column width={6} className='wide' floated='right' verticalAlign='middle' textAlign="center">
+                    <SkillsTagCloud/>
+                </Grid.Column>
+            </Grid.Row>
+        </Grid>
+        <WorkExperience/>
     </div>
 );
 

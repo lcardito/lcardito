@@ -2,7 +2,7 @@ import React from "react";
 import {Container, Header, Icon, Menu, Segment} from "semantic-ui-react";
 
 const SocialMenu = () => (
-    <div>
+    <Container>
         <Menu secondary={true} icon={true} compact>
             <a href='https://github.com/lcardito/' target='_blank'>
                 <Menu.Item>
@@ -22,7 +22,7 @@ const SocialMenu = () => (
                 </Container>
             </Segment>
         </div>
-    </div>
+    </Container>
 );
 
 export default SocialMenu;
