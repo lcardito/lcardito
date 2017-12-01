@@ -3,7 +3,7 @@ import {Container, Grid, Header} from "semantic-ui-react";
 import WorkCard from "./WorkCard";
 
 const WorkExperience = () => (
-    <Container text>
+    <Container text className='experience'>
         <Header as='h2' className='horizontal header divider aligned' textAlign="center">Experience</Header>
         <Grid stackable columns={1}>
             <Grid.Column>
