@@ -8,6 +8,11 @@ export default class SocialMenu extends React.Component {
 
         return <Container>
             <Menu secondary={true} icon={true} compact>
+                <a href={`http://${user}.me`} target='_blank' title='Web'>
+                    <Menu.Item>
+                        <Icon size='large' link name='world'/>
+                    </Menu.Item>
+                </a>
                 <a href='https://github.com/lcardito/' target='_blank' title='Github'>
                     <Menu.Item>
                         <Icon size='large' link name='github'/>
