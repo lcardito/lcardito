@@ -25,7 +25,11 @@ const WorkExperience = () => (
                     imageSrc='https://pbs.twimg.com/profile_images/661633390081409025/Yh62gWuf.png'
                     header='Software Developer @ Clearvision'
                     period='Nov 2015 - Sep 2016'
-                    achievements={[]}
+                    achievements={[
+                        'Improved code quality and application structure',
+                        'Developed full stack features based on business needs',
+                        'Defined and implemented Continuous Delivery for internal instance of the product'
+                    ]}
                     skills={['Java', 'Docker', 'Angular 1.x', 'Bootstrap', 'Hibernate', 'Spring']}/>
             </Grid.Column>
             <Grid.Column>

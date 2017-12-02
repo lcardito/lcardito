@@ -5,7 +5,7 @@ const Intro = () => (
     <div>
         <Header as='h3'>Who am I</Header>
         <Container text textAlign='justified' fluid>
-            <p>I am an Agile Software Developer , currently building Java solution pushing for a DevOps culture.</p>
+            <p>I am an Agile Software Developer, currently building Java solution pushing for a DevOps culture.</p>
         </Container>
         <Header as='h3'>What do I do</Header>
         <Container text textAlign='justified' fluid>
