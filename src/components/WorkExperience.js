@@ -11,7 +11,13 @@ const WorkExperience = () => (
                     imageSrc='https://dm8eklel4s62k.cloudfront.net/images/sky-logo-b90e8c9.jpg'
                     header='Software Developer @ Sky'
                     period='Sep 2016 - current'
-                    achievements={[]}
+                    achievements={[
+                        'Migration of existing RPM deployments to Docker/Rancher',
+                        'Delivered data transformation component to support legacy system deprecation',
+                        'Designed and developed internal service front end',
+                        'Improved consistency of deployment and monitoring infrastructure',
+                        'On call support'
+                    ]}
                     skills={['Java', 'Docker', 'Dropwizard', 'Ansible', 'Rabbit MQ', 'React', 'Redux']}/>
             </Grid.Column>
             <Grid.Column>

@@ -10,9 +10,9 @@ const WorkCard = ({imageSrc, header, period, achievements, skills}) => (
                 <Item.Header as="h2">{header}</Item.Header>
                 <Item.Meta>{period}</Item.Meta>
                 <Item.Description>
-                    <Header as='h3'>Achievements</Header>
+                    <Header as='h3'>Achievements / Contributions</Header>
                     {achievements && achievements.length > 0 &&
-                    <List bulleted>
+                    <List bulleted className='achievements'>
                         {achievements.map((a, idx) => (
                             <List.Item key={idx}>{a}</List.Item>
                         ))}

@@ -13,5 +13,10 @@ body {
 }
 
 .experience {
+    page-break-before: always !important;
     margin-top: 1.6em !important;
+}
+
+.achievements {
+    margin-left: 2.25em !important;
 }
