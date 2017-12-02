@@ -10,17 +10,19 @@ const WorkCard = ({imageSrc, header, period, achievements, skills}) => (
                 <Item.Header as="h2">{header}</Item.Header>
                 <Item.Meta>{period}</Item.Meta>
                 <Item.Description>
-                    <Header as='h3'>Achievements / Contributions</Header>
                     {achievements && achievements.length > 0 &&
-                    <List bulleted className='achievements'>
-                        {achievements.map((a, idx) => (
-                            <List.Item key={idx}>{a}</List.Item>
-                        ))}
-                    </List>
+                    <React.Fragment>
+                        <Header as='h3'>Achievements / Contributions</Header>
+                        <List bulleted className='achievements'>
+                            {achievements.map((a, idx) => (
+                                <List.Item key={idx}>{a}</List.Item>
+                            ))}
+                        </List>
+                    </React.Fragment>
                     }
                 </Item.Description>
                 <Item.Extra>
-                    <Header as='h3'>Techs</Header>
+                    <Header as='h3'>Technologies</Header>
                     {skills.map((s, idx) => {
                         return <Label key={idx}>{s}</Label>
                     })}

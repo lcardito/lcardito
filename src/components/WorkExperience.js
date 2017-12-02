@@ -45,7 +45,10 @@ const WorkExperience = () => (
                     imageSrc='https://media.glassdoor.com/sql/193109/wds-squarelogo.png'
                     header='Software Developer @ WDS'
                     period='Jul 2013 - Mar 2015'
-                    achievements={[]}
+                    achievements={[
+                        'Designed and developed flexible conversational user interfaced based on a PubSub model',
+                        'Collaboration with Xeroxs\' research team (XRCE and PARC labs) to implement and improve an Artificial Intelligence system'
+                    ]}
                     skills={['Java', 'Play! Framework', 'MongoDB', 'Knockoutjs', 'MySQL']}/>
             </Grid.Column>
             <Grid.Column>

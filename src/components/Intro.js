@@ -2,7 +2,7 @@ import React from "react";
 import {Container, Header} from "semantic-ui-react";
 
 const Intro = () => (
-    <div>
+    <div className='intro'>
         <Header as='h3'>Who am I</Header>
         <Container text textAlign='justified' fluid>
             <p>I am an Agile Software Developer, currently building Java solution pushing for a DevOps culture.</p>

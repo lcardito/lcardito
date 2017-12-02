@@ -4,6 +4,10 @@ body {
   font-family: sans-serif;
 }
 
+.intro {
+    margin-top: 3em !important;
+}
+
 .description {
   margin-top: 1.6em !important;
 }
@@ -19,4 +23,8 @@ body {
 
 .achievements {
     margin-left: 2.25em !important;
+}
+
+.italic {
+    font-style: italic !important;
 }

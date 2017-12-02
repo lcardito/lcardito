@@ -4,12 +4,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@axetroy/react-github-calendar": "^0.1.1",
     "prop-types": "^15.5.10",
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
+    "react": "^16.2",
+    "react-dom": "^16.2",
     "react-tagcloud": "^1.2.0",
-    "semantic-ui-react": "^0.68.5"
+    "semantic-ui-react": "^0.77.0"
   },
   "devDependencies": {
     "@types/jasmine": "^2.5.53",
