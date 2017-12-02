@@ -4,11 +4,11 @@ import {Container, Header} from "semantic-ui-react";
 const Intro = () => (
     <div className='intro'>
         <Header as='h3'>Who am I</Header>
-        <Container text textAlign='justified' fluid>
+        <Container text fluid>
             <p>I am an Agile Software Developer, currently building Java solution pushing for a DevOps culture.</p>
         </Container>
         <Header as='h3'>What do I do</Header>
-        <Container text textAlign='justified' fluid>
+        <Container text fluid>
             <p>I am an ambitious, curious and engaged software developer. I've started my professional career back in 2011/2012 contributing to
                 web projects based on Java / Javascript technologies.</p>
 
