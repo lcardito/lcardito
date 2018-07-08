@@ -5,6 +5,7 @@ import WorkExperience from "./WorkExperience";
 import SkillsTagCloud from "./SkillsTagCloud";
 import Intro from "./Intro";
 import SocialMenu from "./SocialMenu";
+// import ReactGithubCalendar from '@axetroy/react-github-calendar';
 
 const App = () => (
     <div>
