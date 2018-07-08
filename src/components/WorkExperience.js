@@ -22,7 +22,7 @@ const WorkExperience = () => (
             </Grid.Column>
             <Grid.Column>
                 <WorkCard
-                    imageSrc='https://pbs.twimg.com/profile_images/661633390081409025/Yh62gWuf.png'
+                    imageSrc='https://d1t3catrzs6yb6.cloudfront.net/wp-content/uploads/2018/05/18142409/Clearvision-logo-1.png'
                     header='Software Developer @ Clearvision'
                     period='Nov 2015 - Sep 2016'
                     achievements={[
@@ -53,7 +53,7 @@ const WorkExperience = () => (
             </Grid.Column>
             <Grid.Column>
                 <WorkCard
-                    imageSrc='http://www.camacoes.it/images/everisLogo.jpg'
+                    imageSrc='https://www.channelbiz.es/wp-content/uploads/2015/09/everis-684x513.jpg'
                     header='Information Technology Consultant @ Everis'
                     period='May 2012 - June 2013'
                     achievements={[]}
@@ -61,7 +61,7 @@ const WorkExperience = () => (
             </Grid.Column>
             <Grid.Column>
                 <WorkCard
-                    imageSrc='https://media.licdn.com/mpr/mpr/shrink_100_100/p/3/000/090/2de/3a16c46.png'
+                    imageSrc='https://media.licdn.com/dms/image/C560BAQEquo5NzPwK_w/company-logo_200_200/0?e=2159024400&v=beta&t=IRVUTS3YqX56x4y6w6MHLryUM8XIXUy8r99jJ1qAxdQ'
                     header='Software Developer @ Nexse SRL'
                     period='June 2011 - March 2012'
                     achievements={[]}
